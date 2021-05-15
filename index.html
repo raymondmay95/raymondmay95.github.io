@@ -13,6 +13,13 @@
 	<link rel="stylesheet" href="assets/css/main.css" />
 	<noscript>
 		<link rel="stylesheet" href="assets/css/noscript.css" /></noscript>
+	<!-- Scripts -->
+	<script async defer src="assets/js/jquery.min.js"></script>
+	<script async defer src="assets/js/jquery.scrollex.min.js"></script>
+	<script async defer src="assets/js/browser.min.js"></script>
+	<script async defer src="assets/js/breakpoints.min.js"></script>
+	<script async defer src="assets/js/util.js"></script>
+	<script async defer src="assets/js/main.js"></script>
 </head>
 
 <body class="is-preload">
@@ -35,8 +42,9 @@
 				<a class="links"
 					src="https://docs.google.com/document/d/e/2PACX-1vRll6nGC5cpkSOHhyWYK9vPWS7i9fBTbUymi7jC58jv79qlRADsq1sz3IRnHhdsaSxchImk5UAwl4n0/pub?embedded=true">
 					<div class="links">
-						<iframe width="595" height="500" style="background-color: transparent;"
-							src="https://docs.google.com/document/d/e/2PACX-1vRll6nGC5cpkSOHhyWYK9vPWS7i9fBTbUymi7jC58jv79qlRADsq1sz3IRnHhdsaSxchImk5UAwl4n0/pub?embedded=true"></iframe>
+						<iframe
+							src="https://docs.google.com/document/d/e/2PACX-1vRll6nGC5cpkSOHhyWYK9vPWS7i9fBTbUymi7jC58jv79qlRADsq1sz3IRnHhdsaSxchImk5UAwl4n0/pub?embedded=true"
+							style="width: 80vw; height: 80vh"></iframe>
 					</div>
 				</a>
 			</div>
@@ -83,14 +91,13 @@
 					<a href="/" class="image"><img src="images/js.png" /></a>
 					<div class="content">
 						<div>
-							<h2 class="major">JAVASCRIPT <div></div>
-							</h2>
+							<h2 class="major" id="javascript">Javascript</h2>
 							<p>
 								Javascript is my first language. It has provided me with a foundation to understand Software.
 								engineering. With its many complexities and single threaded nature it will always be a go to
 								language of mine.
 							</p>
-							<a href="#eight" class="special">Learn more</a>
+							<a href="#eleven" class="special">Learn more</a>
 						</div>
 					</div>
 				</div>
@@ -101,14 +108,14 @@
 				<div class="inner">
 					<a target="_blank" href="#" class="image"><img src="images/python.png" alt="" /></a>
 					<div class="content">
-						<h2 class="major">PYTHON</h2>
+						<h2 class="major" id="python">PYTHON</h2>
 						<p>
 							Driven by community and readability, Python has been a go to in handling backend routes. I've used
 							it alongside a Javascript frontend to build a couple of applications such as Captain Hagi, a
 							weather forecasting application, and Sonic fog, a group project meant to copy the functionality of
 							SoundCloud.
 						</p>
-						<a href="#eight" class="special">Learn more</a>
+						<a href="#eleven" class="special">Learn more</a>
 					</div>
 				</div>
 			</section>
@@ -118,7 +125,7 @@
 				<div class="inner">
 					<a target="_blank" href="#" class="image"><img src="images/pic03.png" alt="" /></a>
 					<div class="content">
-						<h2 class="major">HTML:5 | CSS3</h2>
+						<h2 class="major" id="HTML CSS">HTML:5 | CSS3</h2>
 						<p>
 							As a developer and perfectionist, I build websites that are meant to be interacted with, and are
 							pleasing to the eye. Coming from a "fine dining" background in Hospitality it has always been
@@ -131,12 +138,12 @@
 			</section>
 
 			<!-- Four -->
-			<section id="four" class="wrapper spotlight style1">
+			<section id="four" class="wrapper spotlight style4">
 				<div class="inner">
 					<a target="_blank" href="#" class="image"><img src="images/flask.png" alt=""
 							style="filter: hue-rotate(90deg);" /></a>
 					<div class="content">
-						<h2 class="major">FLASK</h2>
+						<h2 class="major" id="flask">FLASK</h2>
 						<p>
 							Having built web applications utilizing some of the benefits that <a href="#two"
 								style="text-decoration: none;">Python</a> has to offer, Flask has served an important role in
@@ -146,16 +153,17 @@
 							with Flask and use it in these two
 							projects.
 						</p>
-						<a href="#eight" class="special">Learn more</a>
+						<a href="#eleven" class="special">Learn more</a>
 					</div>
 				</div>
 			</section>
-			<section id="five" class="wrapper spotlight style2">
+			<!-- Five -->
+			<section id="five" class="wrapper spotlight style1">
 				<div class="inner">
 					<a target="_blank" href="https://nodejs.org/en/docs/" class="image"><img src="images/nodejs.png"
 							alt="" /></a>
 					<div class="content">
-						<h2 class="major">NODE.js</h2>
+						<h2 class="major" id="node">NODE.js</h2>
 						<p>
 							Producing in <a href="#one" style="text-decoration: none;">Javascript</a> requires understanding of
 							Node.js. In
@@ -163,29 +171,30 @@
 							Manager (NPM)
 							to manage application dependencies.
 						</p>
-						<a href="#eight" class="special">Learn more</a>
+						<a href="#eleven" class="special">Learn more</a>
 					</div>
 				</div>
 			</section>
-			<section id="six" class="wrapper spotlight style3">
+			<!-- Six -->
+			<section id="six" class="wrapper spotlight style2">
 				<div class="inner">
 					<a target="_blank" href="#" class="image"><img src="images/react.png" alt="" /></a>
 					<div class="content">
-						<h2 class="major">React</h2>
+						<h2 class="major" id="react">React</h2>
 						<p>
 							State management through React is a very powerful tool in my rucksack. Its many hooks and ability
 							to render specific components warrant its use in all of my projects.
 						</p>
-						<a href="#eight" class="special">Learn more</a>
+						<a href="#eleven" class="special">Learn more</a>
 					</div>
 				</div>
 			</section>
-			<section id="seven" class="wrapper spotlight style4">
+			<!-- Seven -->
+			<section id="seven" class="wrapper spotlight style3">
 				<div class="inner">
-					<a target="_blank" href="#" class="image"><img src="images/redux.png" alt=""
-							style="filter: hue-rotate(90deg);" /></a>
+					<a target="_blank" href="#" class="image"><img src="images/redux.png" alt="" /></a>
 					<div class="content">
-						<h2 class="major">Redux</h2>
+						<h2 class="major" id="redux">Redux</h2>
 						<p>
 							It's rare that with all of the technologies above I would have to use Redux. But always having a
 							creative and cerious mind; Redux paired with <a href="#six"
@@ -193,12 +202,70 @@
 								style="text-decoration: none;">Javascript</a> is a skill I've honed and kept current by using it
 							in three of the four projects below.
 						</p>
-						<a href="#eight" class="special">Learn more</a>
+						<a href="#eleven" class="special">Learn more</a>
 					</div>
 				</div>
 			</section>
-
-			<section id="eight" class="wrapper alt style1">
+			<!-- eight -->
+			<section id="eight" class=" wrapper spotlight style4">
+				<div class="inner">
+					<a target="_blank" href="#" class="image"><img src="images/postgresql.png" alt="" /></a>
+					<div class="content">
+						<h2 class="major" id="postgresql">PostgreSQL</h2>
+						<p>
+							In all of my projects below, whether decided as a team or alone on solo projects, PostgreSQL has
+							been a primary choice on the back-end for its flexibility, cost-efficiency, and integration with
+							ORM's (Object Relational Mappers) such as <a href="#sequelize">Sequelize</a> and <a
+								href="#sqlalchemy">SQLAlchemy.
+						</p>
+						<a href="#eleven" class="special">Learn more</a>
+					</div>
+				</div>
+			</section>
+			<!-- Nine -->
+			<section id="nine" class="wrapper spotlight style1">
+				<div class="inner">
+					<a target="_blank" href="#" class="image"><img src="images/sqlalchemy.png" alt=""
+							style="margin: 0; padding: 0;" /><img src="images/sequelize.png" alt=""
+							style="margin: 0; padding: 0;" /></a>
+					<div class="content">
+						<h2 class="major" id="orm">Object Relational Mappers</h2>
+						<h3 id="sequelize">Sequelize</h3>
+						<p>
+							Sequelize is a promise-based Node.js ORM that can be easily integrated with <a
+								href="#postgresql">PostgreSQL</a>
+							that's
+							loaded with features like solid transaction support and relational mapping. Because of this
+							Sequelize is my go to when querying data from my <a href="#postgresql">PostgreSQL</a> database.
+						</p>
+						<h3 id="sqlalchemy">SQLAlchemy</h3>
+						<p>
+							But what about when we build our backend in <a href="python">Python</a>? Easy <a
+								href="flask">Flask</a> allows us to hook up SQLAlchemy in <a href="python">Python</a> and
+							connect it to <a href="postgresql">PostgreSQL</a> to easily create tables and relationships and
+							quickly and efficently query for data.
+						</p>
+						<a href="#eleven" class="special">Learn more</a>
+					</div>
+				</div>
+			</section>
+			<!-- Ten -->
+			<section id="ten" class="wrapper spotlight style2">
+				<div class="inner">
+					<a target="_blank" href="#" class="image"><img src="images/aws.png" alt="" /></a>
+					<div class="content">
+						<h2 class="major" id="aws">AWS</h2>
+						<p>
+							Anyone who has ever deployed to the web has noticed issues with things such as images not rendering
+							or video links not loading. This is because many places we deploy don't support web storage. Luckly
+							our friends over at Amazon have tools like S3 that can manage this for us.
+						</p>
+						<a href="#eleven" class="special">Learn more</a>
+					</div>
+				</div>
+			</section>
+			<!-- Eleven -->
+			<section id="eleven" class="wrapper alt style3">
 				<div class="inner">
 					<h2 class="major" style="text-align: center;">My Collection</h2>
 					<section class="features">
@@ -208,6 +275,11 @@
 							<h3 class="major">Captain Hagi</h3>
 							<p>Hawaii weather forecaster with user driven reports. Named after Hawaii's morning weather man,
 								Guy Hagi.
+								<br>
+								<br>
+								<span><a href="#javascript">Javascript</a> | <a href="#aws">AWS</a> | <a
+										href="#Postgres">PostgreSQL</a> | <a href="#node">Node.js</a> |<br><a
+										href="#flask">Flask</a> | <a href="#react">React</a> | <a href="#redux">Redux</span>
 							</p>
 							<a target="_blank" href="https://captain-hagi.herokuapp.com" alt="#" class="special">Explore the
 								Weather</a>
@@ -223,6 +295,11 @@
 								waveform?<br>
 								I
 								think YES!
+								<br>
+								<br>
+								<span><a href="#javascript">Javascript</a> | <a href="#aws">AWS</a> | <a
+										href="#Postgres">PostgreSQL</a> | <a href="#flask">Flask</a>
+									|<br> <a href="#react">React</a> | <a href="#redux">Redux</span>
 							</p>
 							<a target="_blank" href="https://sonic-fog.herokuapp.com" class="special">Let's Jam!</a>
 							<a target="_blank" href="https://github.com/alex-pezzati/sonic-fog" alt="#" class="special">Learn
@@ -234,6 +311,13 @@
 							<h3 class="major">My Fare</h3>
 							<p>A Split Wise clone, built to fill the void after the loss of your favorite bill splitting
 								application.
+								<br>
+								<br>
+								<span><a href="#javascript">Javascript</a> | <a href="#node">Node.js</a> | <a
+										href="#Postgres">PostgreSQL</a> |
+									<a href="#sequelize">Sequelize ORM</a>
+									<br>
+									<a href="#react">React</a> | <a href="#redux">Redux</span>
 							</p>
 							<a target="_blank" href="https://my-fare.herokuapp.com/" class="special">Split a bill!</a>
 							<a target="_blank" href="https://github.com/raymondmay95/Splitwise_Clone" class="special">Learn
@@ -246,15 +330,16 @@
 							<p>The want to travel has never been higher, with lockdown preventing many from traveling with
 								their loved ones.<br> We set out to link people and their love of exploring while in the safty
 								of their home.
+								<br>
+								<br>
+								<span><a href="#javascript">Javascript</a> | <a href="#node">Node.js</a> | <a
+										href="#Postgres">PostgreSQL</a> | <a href="#sequelize">Sequelize ORM</a>
 							</p>
 							<a target="_blank" href="https://passport-global.herokuapp.com/" class="special">Travel Here</a>
 							<a target="_blank" href="https://github.com/RobertVogue/Passport.git" class="special">Learn
 								more</a>
 						</article>
 					</section>
-					<ul class="actions">
-						<li> <a href="#one" class="button">Skills Involved</a></li>
-					</ul>
 				</div>
 			</section>
 
@@ -269,7 +354,7 @@
 						&ensp; Contact me below!
 					</strong>
 				</p>
-				<form method="POST" action="#">
+				<form method="POST" action="mailto:raymond@raymondmay.com" enctype="multipart/form-data" name="EmailForm">
 					<div class="fields">
 						<div class="field">
 							<label for="name">Name</label>
@@ -320,14 +405,6 @@
 		</section>
 
 	</div>
-
-	<!-- Scripts -->
-	<script src="assets/js/jquery.min.js"></script>
-	<script src="assets/js/jquery.scrollex.min.js"></script>
-	<script src="assets/js/browser.min.js"></script>
-	<script src="assets/js/breakpoints.min.js"></script>
-	<script src="assets/js/util.js"></script>
-	<script src="assets/js/main.js"></script>
 
 </body>
 
